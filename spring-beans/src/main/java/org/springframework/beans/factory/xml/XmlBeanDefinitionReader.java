@@ -425,7 +425,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 	protected Document doLoadDocument(InputSource inputSource, Resource resource) throws Exception {
 		return this.documentLoader.loadDocument(
 				//资源文件流
-				inputSource, 
+				inputSource,
 				getEntityResolver(),
 				this.errorHandler,
 				getValidationModeForResource(resource),
